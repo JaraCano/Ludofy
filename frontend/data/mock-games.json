@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Ready or Not",
+    "genres": ["FPS", "Tactical"],
+    "hoursPlayed": 200,
+    "platforms": ["Steam"],
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1144200/header.jpg"
+  },
+  {
+    "title": "Escape From Tarkov",
+    "genres": ["FPS", "Survival"],
+    "hoursPlayed": 350,
+    "platforms": ["Battlestate Games"],
+    "image": "https://cdn.escapefromtarkov.com/uploads/content/banners/slide-03.jpg"
+  },
+  {
+    "title": "Insurgency: Sandstorm",
+    "genres": ["FPS", "Realistic"],
+    "hoursPlayed": 180,
+    "platforms": ["Steam", "Epic"],
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/581320/header.jpg"
+  },
+  {
+    "title": "Squad",
+    "genres": ["Military", "FPS"],
+    "hoursPlayed": 400,
+    "platforms": ["Steam"],
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/393380/header.jpg"
+  }
+]
