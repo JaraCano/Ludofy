@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ludofy - Game Matcher</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <h1>Ludofy</h1>
+  <div class="login-options">
+    <button onclick="loginWithSteam()">Log in with Steam</button>
+    <button onclick="continueAsGuest()">Continue as Guest</button>
+  </div>
+
+  <div class="recommendation-panel" id="recommendationPanel" style="display:none">
+    <input type="text" id="game1" placeholder="Enter game 1">
+    <input type="text" id="game2" placeholder="Enter game 2">
+    <input type="text" id="game3" placeholder="Enter game 3">
+    <button onclick="matchGames()">Find Matches</button>
+
+    <div class="quick-commands">
+      <button onclick="quickRecommend('tactical')">Recommend me something tactical</button>
+      <button onclick="quickRecommend('co-op')">Show me a lowkey co-op game</button>
+      <button onclick="quickRecommend('story')">Find a game with a great story</button>
+    </div>
+  </div>
+
+  <div class="results" id="results"></div>
+
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
