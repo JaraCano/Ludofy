@@ -1,0 +1,14 @@
+# Node
+node_modules/
+.env
+
+# Python / Django
+__pycache__/
+*.py[cod]
+db.sqlite3
+.env
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
