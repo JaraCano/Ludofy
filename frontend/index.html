@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ludofy - Game Matcher</title>
-  <link rel="stylesheet" href="./styles/style.css">
+
+  <!-- This line links your beautiful external CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Your JavaScript -->
+  <script src="./scripts/main.js" defer></script>
 </head>
 <body>
   <h1>Ludofy</h1>
@@ -14,9 +19,9 @@
   </div>
 
   <div class="recommendation-panel" id="recommendationPanel" style="display:none">
-    <input type="text" id="game1" placeholder="Enter game 1">
-    <input type="text" id="game2" placeholder="Enter game 2">
-    <input type="text" id="game3" placeholder="Enter game 3">
+    <input type="text" id="game1" placeholder="Enter game 1" />
+    <input type="text" id="game2" placeholder="Enter game 2" />
+    <input type="text" id="game3" placeholder="Enter game 3" />
     <button onclick="matchGames()">Find Matches</button>
 
     <div class="quick-commands">
@@ -27,7 +32,5 @@
   </div>
 
   <div class="results" id="results"></div>
-
-  <script src="./scripts/main.js"></script>
 </body>
 </html>
