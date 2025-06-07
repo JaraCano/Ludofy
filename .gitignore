@@ -1,12 +1,25 @@
+# ------------------------
 # Python
+# ------------------------
 __pycache__/
 *.py[cod]
-*.sqlite3
-*.log
-*.pot
 *.pyc
 *.pyo
 *.pyd
+*.pyt
+*.pot
+*.log
+*.sqlite3
+*.manifest
+*.spec
+*.egg
+*.egg-info/
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Python virtual environments
 .Python
 env/
 venv/
@@ -22,45 +35,58 @@ lib64/
 parts/
 sdist/
 var/
-*.egg-info/
 .installed.cfg
-*.egg
-*.manifest
-*.spec
 
+# Byte-compiled C extensions
+*.so
+
+# ------------------------
 # Django
+# ------------------------
 *.db
 *.sqlite3
 db.sqlite3
 /media
 /staticfiles
 /static_root
-*.pot
-*.pyc
-*.pyo
+**/migrations/*.py
+!**/migrations/__init__.py
 
+# ------------------------
+# Sensitive files
+# ------------------------
+*.env
+.env.*
+.env.local
+keys.txt
+
+# ------------------------
 # macOS
+# ------------------------
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# macOS Thumbnails
-._*
-
-# macOS Finder metadata
 .Spotlight-V100
 .Trashes
+._*
 
-# Sensitive files
-*.env
-.env.local
-.env.*
-
-# VSCode
+# ------------------------
+# Editors / IDEs
+# ------------------------
 .vscode/
+.idea/
 
-# Node (in case of frontend tools)
+# ------------------------
+# Node (if using frontend tools)
+# ------------------------
 node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
+
+# ------------------------
+# Testing / Coverage
+# ------------------------
+htmlcov/
+.coverage
+.coverage.*
